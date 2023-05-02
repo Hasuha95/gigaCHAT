@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f71c11d-d9c3-4b00-8772-a9be4db60ee7" name="Changes" comment="Chat without DBcomunication finished.">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DBcomunication/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/RegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/SimpleAuthorisationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/client/reg.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientCreatingServerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientCreatingServerSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/client/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/client/hello-view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="2f71c11d-d9c3-4b00-8772-a9be4db60ee7" name="Changes" comment="Chat without DBcomunication finished." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
