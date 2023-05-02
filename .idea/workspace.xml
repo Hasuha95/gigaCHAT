@@ -4,27 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f71c11d-d9c3-4b00-8772-a9be4db60ee7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/TestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/ClientCreatingServerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/ServerRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/client/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_git_infirm.rtf" beforeDir="false" />
+    <list default="true" id="2f71c11d-d9c3-4b00-8772-a9be4db60ee7" name="Changes" comment="Chat without DBcomunication finished.">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBcomunication/CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/RegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/SimpleAuthorisationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/client/reg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientCreatingServerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientCreatingServerSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/client/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/client/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +27,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,16 +51,28 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.client.Main">
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.Server" />
+    <configuration name="CRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DBcomunication.CRUD" />
       <module name="tryAfterErr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="server.*" />
+          <option name="PATTERN" value="DBcomunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.TestClient" />
+    <configuration name="ServerRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.ServerRun" />
       <module name="tryAfterErr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,31 +112,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server.ServerRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.ServerRun" />
+    <configuration name="TestServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tryAfterErr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestServer" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer.createAuth_when_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tryAfterErr" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestServer" />
+      <option name="METHOD_NAME" value="createAuth_when_success" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.server.ServerRun" />
+      <item itemvalue="Application.CRUD" />
+      <item itemvalue="Application.ServerRun" />
       <item itemvalue="Application.client.Main" />
-      <item itemvalue="Application.server.Server" />
-      <item itemvalue="Application.TestClient" />
+      <item itemvalue="JUnit.TestServer" />
+      <item itemvalue="JUnit.TestServer.createAuth_when_success" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.client.Main" />
-        <item itemvalue="Application.server.ServerRun" />
-        <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.server.Server" />
+        <item itemvalue="Application.ServerRun" />
+        <item itemvalue="Application.CRUD" />
+        <item itemvalue="JUnit.TestServer" />
+        <item itemvalue="JUnit.TestServer.createAuth_when_success" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678701858909</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit. Chat without autorisation.">
+      <created>1678876906546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876906547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,5 +177,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit. Chat without autorisation." />
+    <MESSAGE value="Chat without DBcomunication finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat without DBcomunication finished." />
   </component>
 </project>
